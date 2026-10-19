@@ -1,0 +1,34 @@
+{
+  "interpretations": {
+    "0": "Cluster 0: farms with average rainfall 994.5 mm, field size 2.07 ha, and fertilizer 138.1 kg; use as a discussion profile, not an individual decision.",
+    "1": "Cluster 1: farms with average rainfall 985.0 mm, field size 2.05 ha, and fertilizer 127.3 kg; use as a discussion profile, not an individual decision."
+  },
+  "limitation": "Silhouette scores summarize separation only; clusters are descriptive groups from synthetic data and require agronomist review.",
+  "profiles": {
+    "0": {
+      "avg_temp_c": 18.629,
+      "cooperative_support": 1.0,
+      "fertilizer_kg": 138.073,
+      "field_size_ha": 2.074,
+      "rainfall_mm": 994.465,
+      "soil_moisture_pct": 53.072
+    },
+    "1": {
+      "avg_temp_c": 18.887,
+      "cooperative_support": 0.0,
+      "fertilizer_kg": 127.306,
+      "field_size_ha": 2.051,
+      "rainfall_mm": 985.025,
+      "soil_moisture_pct": 52.144
+    }
+  },
+  "selected_k": 2,
+  "silhouette_scores": {
+    "2": 0.157215,
+    "3": 0.13965,
+    "4": 0.141096,
+    "5": 0.139147,
+    "6": 0.149264
+  },
+  "verification_code": "AI-A2-7123"
+}

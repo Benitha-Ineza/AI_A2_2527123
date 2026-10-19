@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.env
+.env.*
+!.env.example
+*.secret
+*.log
+*.pid
+pip-install*.log
+_official_assignment_extracted.txt
+AI_A2_2527123.zip

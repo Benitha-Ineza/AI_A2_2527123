@@ -1,0 +1,31 @@
+{
+  "models": {
+    "linear_regression": {
+      "cv_mae": 0.837967,
+      "mae": 0.797943,
+      "r2": 0.88352,
+      "rmse": 1.067325
+    },
+    "mean_baseline": {
+      "cv_mae": 2.205594,
+      "mae": 2.520467,
+      "r2": -0.021262,
+      "rmse": 3.160378
+    },
+    "random_forest_regressor": {
+      "cv_mae": 1.140264,
+      "mae": 1.258737,
+      "r2": 0.7508,
+      "rmse": 1.561149
+    }
+  },
+  "selected_model": "linear_regression",
+  "selection_reason": "Lowest five-fold cross-validation MAE on training data.",
+  "test_metrics": {
+    "cv_mae": 0.837967,
+    "mae": 0.797943,
+    "r2": 0.88352,
+    "rmse": 1.067325
+  },
+  "verification_code": "AI-A2-7123"
+}

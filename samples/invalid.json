@@ -1,0 +1,8 @@
+{
+  "rainfall_mm": 1500,
+  "avg_temp_c": 18.2,
+  "soil_moisture_pct": 51.0,
+  "fertilizer_kg": 120.0,
+  "field_size_ha": 1.8,
+  "season": "C"
+}

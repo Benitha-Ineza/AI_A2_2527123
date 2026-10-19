@@ -1,0 +1,122 @@
+{
+  "verification_code": "AI-A2-7123",
+  "dataset_sha256": "759d98eee29266a8d54d7de3c50c4a24c4ea50d4d5b38bf7082ed4ba3cb3e014",
+  "raw_rows": 273,
+  "clean_rows": 270,
+  "duplicates_removed": 3,
+  "missing_before_cleaning": {
+    "soil_moisture_pct": 14,
+    "fertilizer_kg": 14
+  },
+  "regression": {
+    "verification_code": "AI-A2-7123",
+    "selected_model": "linear_regression",
+    "selection_reason": "Lowest five-fold cross-validation MAE on training data.",
+    "test_metrics": {
+      "mae": 0.797943,
+      "rmse": 1.067325,
+      "r2": 0.88352,
+      "cv_mae": 0.837967
+    },
+    "models": {
+      "mean_baseline": {
+        "mae": 2.520467,
+        "rmse": 3.160378,
+        "r2": -0.021262,
+        "cv_mae": 2.205594
+      },
+      "linear_regression": {
+        "mae": 0.797943,
+        "rmse": 1.067325,
+        "r2": 0.88352,
+        "cv_mae": 0.837967
+      },
+      "random_forest_regressor": {
+        "mae": 1.258737,
+        "rmse": 1.561149,
+        "r2": 0.7508,
+        "cv_mae": 1.140264
+      }
+    }
+  },
+  "classification": {
+    "verification_code": "AI-A2-7123",
+    "selected_model": "logistic_regression",
+    "selection_reason": "Highest five-fold cross-validation F1-score on training data.",
+    "test_metrics": {
+      "accuracy": 0.911765,
+      "precision": 0.9375,
+      "recall": 0.882353,
+      "f1": 0.909091,
+      "roc_auc": 0.986159,
+      "confusion_matrix": [
+        [
+          32,
+          2
+        ],
+        [
+          4,
+          30
+        ]
+      ],
+      "cv_f1": 0.939603
+    },
+    "models": {
+      "majority_baseline": {
+        "accuracy": 0.5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.5,
+        "confusion_matrix": [
+          [
+            34,
+            0
+          ],
+          [
+            34,
+            0
+          ]
+        ],
+        "cv_f1": 0.131148
+      },
+      "logistic_regression": {
+        "accuracy": 0.911765,
+        "precision": 0.9375,
+        "recall": 0.882353,
+        "f1": 0.909091,
+        "roc_auc": 0.986159,
+        "confusion_matrix": [
+          [
+            32,
+            2
+          ],
+          [
+            4,
+            30
+          ]
+        ],
+        "cv_f1": 0.939603
+      },
+      "random_forest_classifier": {
+        "accuracy": 0.897059,
+        "precision": 0.909091,
+        "recall": 0.882353,
+        "f1": 0.895522,
+        "roc_auc": 0.970588,
+        "confusion_matrix": [
+          [
+            31,
+            3
+          ],
+          [
+            4,
+            30
+          ]
+        ],
+        "cv_f1": 0.930246
+      }
+    }
+  },
+  "clustering_k": 2
+}
